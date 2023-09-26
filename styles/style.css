@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden
+}
+/* encabezado */
+
+.logoContainer {
+    background-image: url(https://images.pexels.com/photos/2736613/pexels-photo-2736613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.logoContainer img {
+    padding-left: 38%;
+}
+
+/* nav */
+nav {
+    border-bottom: 2px solid #ebc1c1;
+}
+
+nav div ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 15%;
+    padding: 2% 1% 2% 3%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* fin nav */
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding: 2%;
+    font-family: 'Poppins',
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.1em;
+    padding: 2%;
+}
+
+p {
+    padding: 2%;
+    font-size: 1.2rem;
+}
+
+.contenedorMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 3%;
+    border-bottom: 1px solid #d9cbcb;
+}
+
+.contenedorMain2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 3%;
+    border-bottom: 1px solid #d9cbcb;
+}
+
+.nosotros {
+    padding-left: 2%;
+}
+
+.contenedorMain img {
+    width: 50vw;
+    height: auto;
+    padding-left: 2%;
+}
+
+
+
+.contenedorMain2 img {
+    width: 35vw;
+    height: auto;
+    padding-left: 2%;
+}
+
+.contenedorMain2 .beneficios {
+    padding-left: 2%;
+}
+
+.contenedorMain2 .beneficios h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(245, 137, 155);
+    padding-top: 34%;
+}
+
+.yogaTipos {
+    padding: 3.4%;
+    background-color: #fbb4b447;
+}
+
+.contenedorVideos {
+    width: 50%;
+    height: auto;
+    padding: 5% 2% 7% 15%;
+    background-color: #ccc;
+}
+
+.contenedorVideos video {
+    width: 80%;
+    height: auto;
+}
+.contenedorVideos iframe {
+    width: 80%;
+}
+.staff {
+    margin-left: 40%;
+}
+/* cursos */
+
+#cursos {
+    background-image: url(../multimedia/backgroundBuda.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.consultasEInscripciones button {
+    border-radius: 30px;
+    background-color: rgb(230, 210, 213);
+    padding: 5%;
+    font-size: 1.2rem;
+    margin: 31% 0% 6% 17%;
+}
+
+/* footer */
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3%;
+    border-bottom: 1px solid #d9cbcb;
+}
+
+footer{
+    background-color: rgb(43, 43, 43);
+    color: whitesmoke;
+}
+.footerUbicacion{
+    padding: 3% 2% 3% 2%;
+}
+.mapa{
+    width: 35%;
+    height: auto;
+}
+.footerContacto{
+    padding: 2%;
+}
+.footerContacto a{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+.footerContacto h4{
+    padding-top: 21%;
+    font-size: 1.2rem;
+}
+.redesPieDeNota{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 3% 0;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.redesPieDeNota div h4{
+    text-align: center;
+    padding-bottom: 10%;
+    font-size: 1.7rem;
+    font-family: emoji;
+}
+.redesPieDeNota .pie{
+    width: 100%;
+    height: auto;
+    padding-left: 7%;
+}
+/* aca lo otro */
+.noticiasSecundarias2 img {
+    width: 73%;
+    height: auto;
+    padding-left: 7%;
+}
+
+.noticiasSecundarias2 .imgPadding {
+    padding: 0% 20%;
+}
+
+.noticiasSecundarias2 iframe {
+    padding: 6% 20%;
+    width: 70%;
+    height: auto;
+}
+
+
+.listNews ul li {
+
+    list-style-image: url('https://drive.google.com/uc?export=view&id=1RrP9A_57RR4MYTTrnUIyLSnj9ss0FEN7');
+    line-height: 1.3em;
+}
+
+.listNews h2 {
+    padding: 2%;
+}
+
+.listNews {
+    border-bottom: 1px solid #d5d5d5;
+    font-size: 1.1rem;
+    padding: 0.6%
+}
+
+.pronostico1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.pronostico1 img {
+    padding-left: 7%;
+}
+
+.pronostico1 .tableContainer {
+    width: 38%;
+    height: 30%;
+    background-image: url(https://www.navemocion.com/img/mapa-argentina-clima_1.png);
+    padding: 4% 15%;
+}
+
+.pronostico1 table {
+    background-color: white;
+}
+
+aside h2 {
+    padding: 2%;
+}
+
+.pronostico1 .tableContainer .h2Table {
+    color: whitesmoke;
+}
+
+footer div h2 {
+    text-decoration: overline;
+}
+
+.formStyle {
+    width: 45%;
+    margin: 1% 27%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff5e0bb;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.2em;
+}
+
+.buttonSend {
+    margin: 2%;
+}
+
+/* Página último momento */
+
+.principal1 h1 {
+    font-family: 'Lora';
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.3em;
+    padding: 2%;
+}
+
+.principal1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1em;
+    padding: 2%;
+}
+
+.encabezado p {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.principal1 div video {
+    padding-left: 14%;
+}
+
+.desarrollo {
+    padding: 3% 8% 0 2%;
+}
+
+.listNews .listPagPrin h2 {
+    padding: 4% 2% 2% 0;
+    margin-right: 7%;
+
+}
+
+.listNews .listPagPrin ul {
+    padding: 9%;
+    margin-right: 7%;
+
+}
