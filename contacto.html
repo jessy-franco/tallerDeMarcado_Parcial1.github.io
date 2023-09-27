@@ -1,11 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./multimedia/flor-de-loto.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam rem eos voluptatibus! Natus corporis soluta nulla suscipit voluptate laborum! Eum animi, incidunt repudiandae nisi porro veniam maxime mollitia aliquam aperiam?</p>
+    <header>
+        <div class="logoContainer">
+            <a href="./index.html">
+                <img src="./multimedia/Logo Estudio de Yoga Lineal Ilustrado Blanco azul y negro.png"
+                    alt="Logo estudio de yoga" width="300vw" height="auto"></a>
+        </div>
+        <nav>
+            <div>
+                <ul>
+                    <li>
+                        <a href="./index.html">Volver página principal</a>
+                    </li>
+                    <li>
+                        <a href="#nosotros">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="#visitanos">Veni a vernos</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="./desarrollo.html">Reiki</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="contenedorMain">
+            <div>
+                <h1>Contacto</h1>
+                <p>Namaste! En nuestro camino hacia el bienestar integral y la paz interior, valoramos profundamente tu
+                    interés en conectarte con nosotros. En <span style="font-weight: 600;">Ensigna,</span> estamos
+                    comprometidos a brindarte una experiencia transformadora a través de la práctica del yoga y el arte
+                    de Reiki. Si tienes preguntas, comentarios o simplemente deseas compartir tus pensamientos, estamos
+                    aquí para escucharte. No dudes en ponerte en contacto con nuestro equipo dedicado y amigable. Tu
+                    búsqueda de equilibrio y armonía es importante para nosotros, y esperamos ser parte de tu viaje
+                    hacia una vida más saludable y consciente.</p>
+            </div>
+            <div>
+                <img src="./multimedia/equilibrio.jpg" alt="">
+            </div>
+        </section>
+        <section id="nosotros" class="contenedorMain">
+            <div class="staff">
+                <img src="./multimedia/nuestroStaff.png" alt="Profesores que trabajan con nosotros" class="staff">
+                <img src="./multimedia/3.jpg" alt="adornos de buda sobre una mesa">
+            </div>
+            <div>
+                <h2>Nosotros</h2>
+                <p>En Ensigna, nos enorgullece ser tu destino para la búsqueda de bienestar, equilibrio y
+                    transformación. Desde nuestros inicios, hemos estado comprometidos con la misión de llevar a las
+                    personas hacia un estado de armonía, tanto en cuerpo como en mente.</p>
+                <p>Nuestra historia se teje con los hilos de la pasión y la dedicación de nuestros fundadores, quienes
+                    compartieron la visión de crear un espacio donde las prácticas ancestrales del yoga y el Reiki se
+                    fusionaran para brindar sanación, serenidad y autoconciencia a todos aquellos que buscan una vida
+                    más plena.</p>
+                <p>Lo que comenzó como un pequeño estudio ha crecido hasta convertirse en una comunidad vibrante de
+                    individuos comprometidos con su propio crecimiento personal. Hemos presenciado cómo personas de
+                    todas las edades y niveles de experiencia han encontrado la paz interior, la fuerza física y la
+                    conexión espiritual a través de nuestras clases de yoga y las sesiones de sanación de Reiki.</p>
+                <p>Nuestros experimentados instructores de yoga y maestros de Reiki están dedicados a guiarte en tu
+                    viaje hacia el bienestar. Creemos en la importancia de crear un ambiente acogedor y compasivo donde
+                    puedas explorar tu propio potencial y descubrir la belleza de tu ser interior.</p>
+                <p>En Ensigna, no solo ofrecemos clases y terapias, sino que también nos consideramos una familia en
+                    crecimiento, donde todos son bienvenidos a unirse a nuestro círculo de amor y apoyo mutuo.</p>
+                <p>Te invitamos a explorar nuestras ofertas de yoga y Reiki, a participar en nuestras actividades y a
+                    ser parte de esta hermosa comunidad que se preocupa profundamente por tu bienestar. Juntos,
+                    continuaremos nuestro viaje hacia una vida más plena y consciente.</p>
+                <p>Gracias por ser parte de nuestra historia en constante evolución. Esperamos acompañarte en tu camino
+                    hacia la paz, la salud y la felicidad.</p>
+                <p>¡Namaste!</p>
+                <p>Ensigna</p>
+                <hr>
+                <h3>Veni a visitarnos</h3>
+                <h4>Conoce nuestro estudio de Yoga por dentro</h4>
+                <iframe width="450" height="215" src="https://www.youtube.com/embed/buLR_EwFNXk?si=7zv7m_UIIQ7q3zqS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="contacto" class="form">
+            <h2>Tu mensaje es la primera luz del camino hacia la transformación. No dudes en escribirnos a través de
+                nuestro formulario de contacto para comenzar este viaje juntos</h2>
+
+            <div class="contenedorForm">
+                <form>
+                    <ul>
+                        <li>
+                            <label for="name">Nombre</label>
+                            <input type="text" name="user_name" id="name" required>
+                        </li>
+                        <li>
+                            <label for="mail">Correo electronico</label>
+                            <input type="email" name="user_mail" id="email" required
+                                placeholder="gabrielValdez@gmail.com">
+                        </li>
+                        <li>
+                            <label for="opcion1">Consulta sobre reiki</label>
+                            <input type="checkbox" id="op1" name="reiki" value="reiki">
+                        </li>
+                        <li>
+                            <label for="opcion2">Consulta sobre yoga</label>
+                            <input type="checkbox" id="op2" name="yoga" value="yoga">
+                        </li>
+                        <li>
+                            <label for="opcion3">Consulta sobre otros servicios</label>
+                            <input type="checkbox" id="op3" name="otros" value="otros">
+                        </li>
+
+                        <li>
+                            <hr>
+                            <p><span style="font-weight: 600; font-size: 1.2rem;">Necesitamos su opinión : como
+                                    calificaria nuestra página?</span></p>
+                            <label for="op1Radio"> Muy buena y util </label>
+                            <input type="radio" id="title_1" name="op" value="MB" />
+                        </li>
+                        <li>
+                            <label for="op2Radio"> Bien pero podria mejorar </label>
+                            <input type="radio" id="title_2" name="op" value="B" />
+                        </li>
+                        <li>
+                            <label for="op3Radio"> No encontre lo que buscaba </label>
+                            <input type="radio" id="title_3" name="op" value="M" />
+                        </li>
+                        <li>
+                            <hr>
+                            <label for="msj"><span style="padding-left: 40%; font-weight: 500;">Mensaje</span></label>
+                            <textarea name="msj" id="mensaje" name="user_mensaje" required
+                                placeholder="Escribe aqui tu consulta, la responderemos a la brevedad"></textarea>
+                        </li>
+                        <li>
+                            <button type="submit">Envíe su mensaje</button>
+                        </li>
+
+                    </ul>
+
+                </form>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer1">
+            <div class="footerUbicacion">
+                <h2>Estudio de Yoga y Reiki Ensigna</h2>
+                <p>ENSIGNA es un estudio de Yoga de ambiente muy acogedor, que induce a la calma y al relax.
+                <p>
+                    Encontrarás un ambiente limpio y energético que influye favorablemente en tu salud. Gracias a
+                    nuestras instalaciones dotadas de lámparas de sal, luz cálida, suelo de tarima, plantas,
+                    aromaterapia, música adaptada a cada práctica…
+                </p>
+            </div>
+            <div class="mapa">
+                <h3> Donde estamos?</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6704839561567!2d-58.38808812545986!3d-34.61249305795961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccada31b4f0bf%3A0xb652ce831b9ed18!2sMoreno%2C%20C1091%20CABA!5e0!3m2!1ses-419!2sar!4v1695698793635!5m2!1ses-419!2sar"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="footerContacto">
+                <div>
+                    <h3>Contacto</h3>
+                    <p>Llama : +34 1165832021 / 46980054
+                    </p>
+                    <p>
+                        Mail: estudio@yogaEnsigna.com
+                    </p>
+                    <p>
+                        o contactanos directamente a:
+                    </p>
+                    <a href="./contacto.html"><span style="font-weight: 500;">Aquí</span></a>
+                </div>
+
+
+        </section>
+        <section class="redesPieDeNota">
+            <div>
+                <h4>Seguinos</h4>
+                <div>
+                    <a href="https://twitter.com/?lang=es" target="_blank"><img
+                            src="https://static.wixstatic.com/media/9c4b521dd2404cd5a05ed6115f3a0dc8.png/v1/fill/w_59,h_59,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9c4b521dd2404cd5a05ed6115f3a0dc8.png"
+                            alt="logoTwitter"></a>
+                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img
+                            src="https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_59,h_59,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e316f544f9094143b9eac01f1f19e697.png"
+                            alt="logoFacebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img
+                            src="https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_59,h_59,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8d6893330740455c96d218258a458aa4.png"
+                            alt="logoInstagram"></a>
+                </div>
+            </div>
+            <div class="pie">
+                <p>Ensigna | Copyright © 2020 | Todos los derechos reservados | Diseño Jesica Franco | Origami Studio
+                </p>
+            </div>
+        </section>
+    </footer>
 </body>
+
 </html>

@@ -11,6 +11,7 @@ html {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden
 }
+
 /* encabezado */
 
 .logoContainer {
@@ -132,12 +133,12 @@ p {
     width: 80%;
     height: auto;
 }
+
 .contenedorVideos iframe {
     width: 80%;
 }
-.staff {
-    margin-left: 40%;
-}
+
+
 /* cursos */
 
 #cursos {
@@ -151,14 +152,14 @@ p {
 .consultasEInscripciones button {
     border-radius: 30px;
     background-color: rgb(230, 210, 213);
-    padding: 5%;
+    padding: 4%;
     font-size: 1.2rem;
-    margin: 31% 0% 6% 17%;
+    margin: 7% 0% 6% 30%;
 }
 
 /* footer */
 
-.footer1{
+.footer1 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -166,29 +167,35 @@ p {
     border-bottom: 1px solid #d9cbcb;
 }
 
-footer{
+footer {
     background-color: rgb(43, 43, 43);
     color: whitesmoke;
 }
-.footerUbicacion{
+
+.footerUbicacion {
     padding: 3% 2% 3% 2%;
 }
-.mapa{
+
+.mapa {
     width: 35%;
     height: auto;
 }
-.footerContacto{
+
+.footerContacto {
     padding: 2%;
 }
-.footerContacto a{
+
+.footerContacto a {
     color: whitesmoke;
     font-size: 1.5rem;
 }
-.footerContacto h4{
+
+.footerContacto h4 {
     padding-top: 21%;
     font-size: 1.2rem;
 }
-.redesPieDeNota{
+
+.redesPieDeNota {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -197,148 +204,186 @@ footer{
     flex-direction: row;
 
 }
-.redesPieDeNota div h4{
+
+.redesPieDeNota div h4 {
     text-align: center;
     padding-bottom: 10%;
     font-size: 1.7rem;
     font-family: emoji;
 }
-.redesPieDeNota .pie{
+
+.redesPieDeNota .pie {
     width: 100%;
     height: auto;
     padding-left: 7%;
 }
+
 /* aca lo otro */
-.noticiasSecundarias2 img {
-    width: 73%;
-    height: auto;
-    padding-left: 7%;
-}
-
-.noticiasSecundarias2 .imgPadding {
-    padding: 0% 20%;
-}
-
-.noticiasSecundarias2 iframe {
-    padding: 6% 20%;
-    width: 70%;
-    height: auto;
-}
 
 
-.listNews ul li {
+/* Reiki.html */
 
-    list-style-image: url('https://drive.google.com/uc?export=view&id=1RrP9A_57RR4MYTTrnUIyLSnj9ss0FEN7');
-    line-height: 1.3em;
-}
-
-.listNews h2 {
-    padding: 2%;
-}
-
-.listNews {
-    border-bottom: 1px solid #d5d5d5;
-    font-size: 1.1rem;
-    padding: 0.6%
-}
-
-.pronostico1 {
+.slider-container {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    width: 50%;
+    height: auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    /* object-fit: cover; */
+    scroll-snap-align: center;
+}
+
+.contenedorMain3{
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+.listPagPrin{
+    /* list-style-image: url('https://drive.google.com/uc?export=view&id=1RrP9A_57RR4MYTTrnUIyLSnj9ss0FEN7'); */
+    line-height: 1.3em;
+    line-height: 1.5rem;
+    padding: 5%;
+    width: 50%;
+    height: auto;
+
+}
+.aside{
+    padding: 5%;
+    background-color: rgba(255, 228, 196, 0.628);
+}
+.tableContainer{
+    padding-left: 23%;
+    background-image: url(https://images.pexels.com/photos/6511323/pexels-photo-6511323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.pronostico1 img {
-    padding-left: 7%;
+table{
+    width: 35%;
+    height: auto;
+    background-color: rgba(255, 192, 203, 0.504);
 }
-
-.pronostico1 .tableContainer {
-    width: 38%;
-    height: 30%;
-    background-image: url(https://www.navemocion.com/img/mapa-argentina-clima_1.png);
-    padding: 4% 15%;
-}
-
-.pronostico1 table {
-    background-color: white;
-}
-
-aside h2 {
-    padding: 2%;
-}
-
-.pronostico1 .tableContainer .h2Table {
+.h2Table{
     color: whitesmoke;
 }
+table tbody{
+    background-color: rgb(250, 216, 221);
+}
+table thead{
+    background-color: pink;
+}
+/* fin */
 
-footer div h2 {
-    text-decoration: overline;
+/* contacto html */
+.staff{
+    padding: 2%;
+}
+.staff div{
+    width: 50%;
+    height: auto;
+}
+.staff div img{
+    width: 30%;
+    height: auto;
 }
 
-.formStyle {
-    width: 45%;
-    margin: 1% 27%;
+/* Estilos generales para el formulario */
+.form{
+    background-image: url(https://images.pexels.com/photos/6825335/pexels-photo-6825335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenedorForm ul li{
+    list-style: none;
+}
+.contenedorForm label{
+    font-size: 1.3rem;
+}
+.contenedorForm form {
+    max-width: 40%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 3%;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    background-color: #fff5e0bb;
-
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    line-height: 3.2em;
-}
-
-.buttonSend {
-    margin: 2%;
-}
-
-/* Página último momento */
-
-.principal1 h1 {
-    font-family: 'Lora';
-    text-align: center;
-    font-size: 4rem;
-    font-weight: bold;
-    line-height: 1.3em;
+/* Estilos para los campos de entrada de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
     padding: 2%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
-.principal1 h2 {
+textarea {
+    resize: vertical;
+} 
+/* Estilos para campos de entrada de texto y áreas de texto */
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    opacity: 0.7; 
+}
+
+/* Estilos para checkboxes y radios */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Estilos para etiquetas de checkboxes y radios */
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Estilos para los checkboxes y radios seleccionados */
+input[type="checkbox"]:checked + label::before,
+input[type="radio"]:checked + label::before {
+    content: '\2713'; 
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
     text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.1em;
-    padding: 2%;
-}
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+} 
 
-.encabezado p {
-    border-bottom: 1px solid #d5d5d5;
-}
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} 
 
-.principal1 div video {
-    padding-left: 14%;
-}
-
-.desarrollo {
-    padding: 3% 8% 0 2%;
-}
-
-.listNews .listPagPrin h2 {
-    padding: 4% 2% 2% 0;
-    margin-right: 7%;
-
-}
-
-.listNews .listPagPrin ul {
-    padding: 9%;
-    margin-right: 7%;
-
-}
+button[type="submit"]:hover {
+    background-color: #555;
+} 
